@@ -1,4 +1,7 @@
+import Button from "../Button/Button";
 import "./Navbar.module.css";
+
+
 const NavbarUp = () => {
   return (
     <>
@@ -11,7 +14,7 @@ const NavbarUp = () => {
           <li>Contact us</li>
         </ul>
 
-        <button className="login">LOGIN</button>
+        <Button text="LOGIN" isLogin={true}/>
       </nav>
     </>
   );

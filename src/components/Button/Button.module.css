@@ -1,9 +1,24 @@
 
+.login_btn{
+    background-color: brown;
+    color: white;
+    border: 2px solid white;
+    padding: 5px;
+    
+}
 
-.btn_class{
+.login_btn:hover {
+  text-shadow: 1px 1px 2px #000000; /* needs blur values */
+  background-color: white;
+  color: brown;
+}
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 50px;
+.shop_btn{
+    background-color: #000000;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    box-shadow: 10px;
+    border-radius: 10px;
+    margin: 10px;
 }

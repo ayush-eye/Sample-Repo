@@ -14,7 +14,10 @@ ul{
     gap:70px;
     align-items: center;
     padding-top: 10px;
+    font-size: large;
+    font-weight: bold;
 }
+
 
 .login{
     width:5%;

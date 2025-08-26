@@ -14,8 +14,7 @@ function App() {
     <>
       <NavbarUp/>
       <Content/>
-      <Button text="SHOP"/>
-      <Button text="CATEGORY"/>
+      
     </>
   )
 }

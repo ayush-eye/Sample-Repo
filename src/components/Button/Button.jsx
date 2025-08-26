@@ -1,10 +1,12 @@
-import "./Button.module.css";
+import styles from "./Button.module.css"
 
 const Button = (props) => {
   return (
-    <div className="btn_class">
-        <button className="shop">{props.text}</button> 
-    </div>
+    <>
+        <button className={props.isLogin ? styles.login_btn : styles.shop_btn}>
+          {props.text}
+        </button> 
+    </>
   )
 }
 

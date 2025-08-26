@@ -1,3 +1,10 @@
-h1{
+.content{
     display: flex;
+    margin: 10px;
+    padding: 10px 50px 50px 80px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
