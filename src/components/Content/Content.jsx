@@ -1,4 +1,5 @@
 import Button from "../Button/Button";
+import MagicBtn from "../Button/MagicBtn";
 import styles from "./Content.module.css";
 const Content = () => {
   return (
@@ -10,6 +11,7 @@ const Content = () => {
       <div className="button">
       <Button text="SHOP"/>
       <Button text="CATEGORY"/>
+      {/* <MagicBtn/> */}
       </div>
       <img src="./images/shoe_image.png"></img>
     </div>
